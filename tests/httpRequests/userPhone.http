@@ -1,0 +1,20 @@
+### post phone by user  200--------------------------------------------------------------------------
+
+POST http://localhost:5000/api/users/62e3bd36a75c575b23cda1f3/phones HTTP/1.1
+Content-Type: application/json
+
+{
+    "brand": "phoneByUser2",
+    "model": "test",
+    "manufactureDate": "2000-01-01",
+    "ram": 4,
+    "cpu": "Exynos",
+    "cpuCapacity": 4,
+    "nfc": false,
+    "serialNumber": "aaa455"
+}
+
+
+###----GET /api/users/1/phones------------------------------------------------------------------------------
+
+GET http://localhost:5000/api/users/62e3bd36a75c575b23cda1f3/phones HTTP/1.1

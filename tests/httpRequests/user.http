@@ -77,7 +77,7 @@ DELETE http://127.0.0.1:5000/api/users/6180fb188a4358d038a00000 HTTP/1.1
 
 ### post user post 201
 
-POST http://127.0.0.1:5000/api/users/62dd617602a7945564e60d11/posts HTTP/1.1
+POST http://127.0.0.1:5000/api/users/62dfb7fb2a9e236c9f476f48/posts HTTP/1.1
 Content-Type: application/json
 
 {
